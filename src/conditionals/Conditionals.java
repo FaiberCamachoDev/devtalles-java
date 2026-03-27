@@ -20,7 +20,7 @@ public class Conditionals {
         if (!isAdult){
             System.out.println("Not is an adult"); // cuando no se cumpla la condicion == false se ejecuta esta
         }
-/*
+
         int day = 30;
         switch (day) {
             case 1:
@@ -34,7 +34,7 @@ public class Conditionals {
                 break;
             default:
                 System.out.println("Holi juasjuas");
-        }*/
+        }
 
     }
 }
