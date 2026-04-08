@@ -7,6 +7,7 @@ public class classroom {
     public classroom(String studentName) {
         this.studentName = studentName;
     }
+
     public void showInfo(){
         System.out.println("Alumno: "+ studentName + ", Escuela: "+ schoolName);
     }
