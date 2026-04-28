@@ -1,6 +1,7 @@
-package DataStructures;
+package DataStructures.arraylist;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args){
@@ -19,6 +20,29 @@ public class Main {
         numers2.add(10);
         numers2.add(20);
         System.out.println(numers2);
+
+
+        // estructuras dinamicas - framework de colecciones
+        //list
+        List<String> student = new ArrayList<>();
+        student.add("Ana");
+        student.add("Awera");
+        student.add("Ane");
+        student.add("gabo");
+        System.out.println(student);
+
+        System.out.println(student.get(0));
+
+        student.remove("Ana");
+        System.out.println(student);
+        System.out.println(student.remove(0));
+        System.out.println(student);
+
+        System.out.println(student.set(0, "Awosisimo"));
+        System.out.println(student);
+
+        System.out.println(student.contains("gabo"));
+
 
     }
 }
